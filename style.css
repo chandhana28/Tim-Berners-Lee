@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.pic {
+    width: 175px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+
+#preview {
+    background: linear-gradient(#4260f5 0%, #9342f5 100%);
+    padding: 150px;
+    font-family: fantasy;
+    color: white;
+}
+
+#paragraph {
+    font-size: 15px;
+    line-height: 1.2;
+    padding: 30px;
+    font-family: monospace;
+}
+
+.line {
+    height: 6px;
+    width: 150px;
+    background-color: #4260f5;
+    margin: 10px auto;
+}
+
+p {
+    padding: 20px;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    font-family: monospace;
+    top: 20px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    padding: 10px 15px 10px 15px;
+    color: black;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: black;
+    color: white;
+}
