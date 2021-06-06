@@ -50,7 +50,41 @@ p {
     font-size: 20px;
 }
 
-.links:hover {
+.tabs:hover {
     background-color: black;
     color: white;
+}
+
+h1{
+    font-family: monospace;
+}
+
+#Videos{
+   padding: 30px;
+}
+
+#Work{
+    padding: 30px;
+}
+
+#Writings{
+    padding: 30px;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+.tabs{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+#name{
+    font-family: fantasy;
+}
+
+.article{
+ font-family: monospace;
 }
