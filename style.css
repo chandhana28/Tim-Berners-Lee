@@ -35,19 +35,25 @@ p {
 }
 
 .menu {
-    list-style: none;
-    position: absolute;
+        list-style: none;
+    position: fixed;
     font-family: monospace;
-    top: 20px;
-    right: 50px;
     cursor: pointer;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    margin-top: 0;
+    top: 0;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .links {
-    float: left;
-    padding: 10px 15px 10px 15px;
+    float: none;
+    display: inline;
     color: black;
     font-size: 20px;
+    text-align: center;
 }
 
 .tabs:hover {
@@ -55,36 +61,53 @@ p {
     color: white;
 }
 
-h1{
+h1 {
     font-family: monospace;
 }
 
-#Videos{
-   padding: 30px;
-}
-
-#Work{
+#Videos {
     padding: 30px;
 }
 
-#Writings{
+#Work {
+    padding: 30px;
+}
+
+#Writings {
     padding: 30px;
 }
 
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
-.tabs{
+.tabs {
     text-decoration: none;
     color: black;
     padding: 10px;
+    text-align: center;
 }
 
-#name{
+#name {
     font-family: fantasy;
 }
 
-.article{
- font-family: monospace;
+.article {
+    font-family: monospace;
+}
+
+.media{
+    background: linear-gradient(#4260f5 0%, #9342f5 100%);
+    bottom: 0;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+h3{
+    display: inline;
+}
+
+#Email{
+  text-decoration: none;
+    color: white;
 }
